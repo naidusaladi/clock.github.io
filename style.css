@@ -1,0 +1,52 @@
+body{
+    margin:0;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+    background-image: url('cars.jpg');
+    background-size: cover;
+    background-position: center;
+}
+h1{
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 19px;
+}
+.clock{
+    display: flex;
+}
+.clock div{
+    margin:8px;
+}
+.clock span{
+    width:100px;
+    height: 80px;
+    background: rgb(209, 22, 22);
+    opacity: .6;
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size:50px;
+    text-shadow:2px 2px 4px black ;
+
+}
+.clock .text{
+    font-size: 19px;
+    height: 40px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background: lightskyblue;
+    opacity: 0.8;
+}
+.clock #ampm{
+    
+    position:absolute;
+    bottom:302px;
+    
+    width: 30px;
+    font-size: 20px;
+    height: 30px;
+    background: greenyellow;
+}
